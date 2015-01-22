@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+@import 'reset.css';
+
+body {
+	background: url('../images/Brooklyn_Bridge.jpg');
+	background-size: cover;	
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+
+h1 {
+	font-size: 44px;
+	font-family: Georgia, serif;
+	font-weight:700;
+	margin: 30px 38px 30px 0px;
+	color: #f1c099;
+}
+h2 {
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1.20px;
+	margin: 15px 0;
+	padding: 10px;	
+	background-color: #122622;
+	border-bottom-left-radius: 5px;
+}
+p {
+	font-family: 'Bitter', serif;
+	
+	color: #f1dbd9;	
+	line-height: 25px;
+	padding: 10px 20px 0px 10px;
+}
+
+#wrapper {
+	background-color: #1b413e;
+	width: 400px;
+	heigh: 485px;
+	margin-top: 40px;
+	padding: 5px 0 10px 20px;
+	border-radius: 0px 0px 30px 0px;
+}
+
+footer {
+		padding-top:40px;
+	}
+footer a {
+		color: white;	
+		text-decoration: none;
+	}
+	
+	
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
